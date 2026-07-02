@@ -1,0 +1,17 @@
+{
+  "name": "paymaster",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network abstractTestnet"
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync": "^1.6.2",
+    "@matterlabs/zksync-contracts": "^28.0.1",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0",
+    "dotenv": "^16.4.0"
+  }
+}
